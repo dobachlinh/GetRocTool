@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<getRocs>
+    <auto>
+        <site>
+            <id>1</id>
+            <drivername>webdriver.chrome.driver</drivername>
+            <driverlocation>src/main/resources/chromedriver.exe</driverlocation>
+            <waitsecond>1</waitsecond>
+            <acc_file>src/main/resources/AccountName.txt</acc_file>
+            <acc_pkdjs_file>src/main/resources/AccountPolkaDotJS.txt</acc_pkdjs_file>
+            <log_file>src/main/resources/Log.txt</log_file>
+            <err_log_file>src/main/resources/ErrorLog.txt</err_log_file>
+            <extension_file>src/main/resources/extension_0_37_1_0.crx</extension_file>
+            <extension_url>chrome-extension://mopnmbcafieddcagagdcbnhejhlodfdd/index.html#/</extension_url>
+            <vote_url>https://polkaproject.com/#/project/635</vote_url>
+            <sitename>common</sitename>
+        </site>
+        <site>
+            <id>1</id>
+            <password>Tradangon</password>
+            <url>https://app.element.io/#/room/#rococo-faucet:matrix.org</url>
+            <sitename>elementio</sitename>
+        </site>
+        <site>
+            <id>2</id>
+            <sendtoaddress>5GLBNBfE53cEd31xFBUHNtHgYkAFDwCAEmVTNh1SiYgtVy6P</sendtoaddress>
+            <password>Trada123</password>
+            <rocnumber>99.5</rocnumber>
+            <url>https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/accounts</url>
+            <sitename>polkadotjs</sitename>
+        </site>
+    </auto>
+</getRocs>
